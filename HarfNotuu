@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+
+public class HarfNotu 
+{
+    static Scanner s=new Scanner(System.in);
+    
+    public static void main(String args[])
+    {
+        System.out.println("Notunnu giriniz : ");
+        int not=s.nextInt();
+        
+        if(not>=90 && not<=100)
+            System.out.print("AA");
+        else if(not>=80 && not <90)
+            System.out.println("BB");
+        else if(not>=70 && not<=80)
+            System.out.println("CC");
+        else
+            System.out.println("FF");
+        
+    }
+    
+}
